@@ -15,8 +15,8 @@ exclude = ["/sgx/*"]
 base64 = { git = "https://github.com/mesalock-linux/rust-base64-sgx", branch = "v1.0.9-backup" }
 log = { git = "https://github.com/mesalock-linux/log-sgx", branch = "v1.0.9-backup", optional = true }
 ring = { git = "https://github.com/mesalock-linux/ring-sgx", rev = "v1.0.9-backup" }
-sct = { git = "https://github.com/fredfortier/sct.rs", branch = "mesalock_sgx-v1.0.9-backup" }
-webpki = { git = "https://github.com/fredfortier/webpki", branch = "mesalock_sgx-v1.0.9-backup" }
+sct = { git = "https://github.com/fredfortier/sct.rs", rev = "mesalock_sgx-v1.0.9-backup" }
+webpki = { git = "https://github.com/fredfortier/webpki", rev = "mesalock_sgx-v1.0.9-backup" }
 sgx_tstd = { rev = "v1.0.9", git = "https://github.com/baidu/rust-sgx-sdk.git", optional = true }
 
 [features]
